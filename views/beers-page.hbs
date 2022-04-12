@@ -1,0 +1,32 @@
+
+
+
+<div class="container">
+
+
+
+    <div class="row">
+
+        {{#each beersFromApi}}
+         
+         <div class="col-md-4">
+          <div class="card" >
+            {{>beerImage}}
+            <div class="card-body">
+            {{>beerName}}
+            {{>beerTagline}}
+            {{>beerDescription}}
+            </div>
+            </div>
+            </div>
+        {{/each}}
+   
+    
+
+
+</div>
+
+
+
+
+

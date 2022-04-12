@@ -5,3 +5,86 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+.image-inicio{
+
+    width: 80%;
+    margin: 40px auto;
+    display: block;
+}
+
+
+
+
+
+.container-fluid{
+background-color: #0d6efd;
+color:white;
+}
+
+.nav-link {color:white;}
+
+.btn-primary{display: block;margin-top: 20px;}
+
+.card-img-top{
+
+height: 150px;
+
+
+ 
+    margin: 0 auto;
+    object-fit: scale-down;
+
+}
+
+.card-body a{
+
+text-decoration: none;
+color: black;
+
+}
+
+.card{border: none; width:100% ;margin-top: 40px;}
+
+.tagline{color: gray;}
+
+.description{ font-size: .8em;}
+
+.random{margin-top: 50px;}
+
+.random img{
+
+height: 250px;
+
+
+}
+.random ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+
+ 
+}
+
+
+
+.random ul li{
+    margin: 0;
+    padding: 0;
+    
+    list-style:none}
+
+
+
+footer{
+
+
+background-color: #012152;
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 2rem;
+
+
+
+}

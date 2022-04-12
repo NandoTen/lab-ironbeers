@@ -1,0 +1,31 @@
+ <div class="random">
+ <div class="row">
+
+ {{#each responseFromAPI}}
+ <div class="col-md-2"></div>
+ <div class="col-md-2">{{>beerImage}}</div>
+
+ <div class="col-md-6">
+
+<div class="card-body">
+            {{>beerName}}
+            {{>beerTagline}}
+            {{>beerDescription}}
+            <h5>Food Pairing</h5>
+
+            {{>foodPairing}}
+                <b><h5>Brewers Tips</h5></b>
+                {{>brewersTips}}
+            
+           
+ </div>
+<div class="col-md-2"></div>
+
+
+        {{/each}}
+
+</div>
+</div>
+
+
+ 
